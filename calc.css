@@ -1,0 +1,101 @@
+body {
+  background-image: url("calcu.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-color: rgb(179, 146, 41); */
+}
+span {
+  color:rgb(226, 113, 47);
+  font-size: 125px;
+  font-weight: 900;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 7px 4px 6px rgba(241, 159, 82, 0.7);
+}
+* {
+  padding: 5px 2px;
+}
+
+.calculator {
+  width: 70px;
+  height: 500px;
+  background-color: #292626;
+  box-shadow: -10px -15px 15px rgb(133, 130, 130,0.6);
+  border: 5px solid rgb(5, 5, 5);
+  border-radius: 12px;
+}
+#display {
+  width: 250px;
+  height: 40px;
+  text-align: right;
+  background-color: black;
+  border: 3px solid white;
+  font-size: 18px;
+  left: 2px;
+  top: 2px;
+  color: #dddf87;
+}
+.btnTop {
+  color: rgb(247, 247, 247);
+  background-color: #131111;
+  font-size: 20px;
+  margin: auto;
+  width: 48px;
+  height: 40px;
+}
+.btnNum {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  margin: auto;
+  width: 48px;
+  height: 40px;
+}
+.btnMath {
+  color: white;
+  background-color: #171418;
+  font-size: 20px;
+  margin: auto;
+  width: 48px;
+}
+.btnOpps {
+  color: white;
+  background-color: #131210;
+  font-size: 20px;
+  margin: auto;
+  width: 48px;
+  height: 40px;
+}
+.btnNum:hover {
+  background-color: rgb(124, 122, 119);
+}
+.btnOpps:hover {
+  background-color: rgb(163, 209, 116);
+}
+.btnMath:hover {
+  background-color: rgb(163, 209, 116);
+}
+.btnTop:hover {
+  background-color: rgb(163, 209, 116);
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px 200px;
+}
+.container-1 {
+  color:rgb(226, 113, 47);
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-top: 40px;
+  font-size: 50px;
+  font-style:normal;
+  text-shadow: -4px 5px 4px rgb(240, 163, 113);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container-2 {
+  padding-left: 150px;
+  padding-top: 30px;
+}
+
+
+
